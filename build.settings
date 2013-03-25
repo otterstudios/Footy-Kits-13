@@ -1,0 +1,62 @@
+settings =
+{
+
+	androidPermissions =
+   {
+       "android.permission.VIBRATE"
+
+   },
+
+        orientation =
+        {
+                default = "portrait",
+				content = "portrait",
+				supported =
+					{
+							"portrait"
+					},
+        },
+
+        android =
+    {
+        usesPermissions =
+        {
+              "android.permission.INTERNET",
+        },
+    },
+ 
+        iphone =
+        {		
+                 plist =
+                {
+				UIPrerenderedIcon = true,
+                FacebookAppID = "490946604288037",
+				MinimumOSVersion="4.3",
+                UIApplicationExitsOnSuspend = false,
+				UIAppFonts = 
+                        {
+                        "chint___.ttf"
+                        },
+
+				CFBundleURLTypes =
+            {
+                {
+                    CFBundleURLSchemes =
+                    {
+                        "fb490946604288037",
+                    }
+                }
+            },
+                       CFBundleIconFile = "Icon.png",
+                        CFBundleIconFiles = {
+                                "Icon.png" , 
+                                "Icon@2x.png" , 
+                                "Icon-72.png" ,
+                                "Icon-72@2x.png",
+                                "Icon-Small-50.png" , 
+                                "Icon-Small.png" , 
+                                "Icon-Small@2x.png"
+                        },
+                },
+        }
+}
