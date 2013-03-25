@@ -2,6 +2,14 @@ module(..., package.seeall)
 
 print ("horses")
 print ("WHAT THE FUCK!?")
+Print ("TWENTY HORSES")
+print ("horses")
+print ("WHAT THE FUCK!?")
+Print ("TWENTY HORSES")
+
+print ("horses")
+print ("WHAT THE FUCK!?")
+Print ("TWENTY HORSES")
 ------------------------------------------------------------------
 -- LIBRARIES
 ------------------------------------------------------------------
@@ -9,6 +17,8 @@ print ("WHAT THE FUCK!?")
 local storyboard = require("storyboard") -- load library to manage the scene
 local scene = storyboard.newScene() -- create new scene
 local GameRand = require"GameRand";
+
+
 
 
 ------------------------------------------------------------------
